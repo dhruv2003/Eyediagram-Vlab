@@ -2,32 +2,31 @@
 <html>
 
 <head>
-	<title>Pre-Test</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../maincss.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Eye Diagram Virtual Lab - Pre-Test</title>
+	<link rel="stylesheet" type="text/css" href="../unified.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body bgcolor="#000066">
-	<div id="nav-placeholder" style="background-color:white;position:relative; margin-left:auto; margin-right:auto; margin-top:20px;height:100%; width:1160px;margin-bottom: 20px">
-  	<ul>
-   	  <li ><a  href="../index.html"><img src="../images/aim.png" alt="Theory" height="90px" class="active" width="100px"></a><a  href="../index.html">Aim</a></li>
-	  <li ><a  href="../theory_page/theory.html"><img src="../images/theory.png" alt="Theory" height="90px"  width="100px"></a><a  href="../theory_page/theory.html">Theory</a></li>
-	  <li><a href="../procedure/procedure.html"><img src="../images/Procedure.png" alt="Theory" height="90px" width="100px"></a><a href="../procedure/procedure.html">Procedure</a></li>
-	  <li><a href="#"><img src="../images/pre-test.png" alt="Theory" height="90px" width="100px"></a><a href="#">Pre-Test</a></li>
-	  <li><a href="#" onclick="alert('Complete Pre Test to perform Simulation')"><img src="../images/simulation.png" alt="Theory" height="90px" width="100px"></a><a href="#" onclick="alert('Complete Pre Test to perform Simulation')">Simulation</a></li>
-	  <li><a href="#" onclick="alert('Complete Simulation to access Post Test')"><img src="../images/post-test.png" alt="Theory" height="90px" width="100px"></a><a href="#" onclick="alert('Complete Simulation to access Post Test')">Post-Test</a></li>
-	  <li><a href="../references.html"><img src="../images/references.png" alt="Theory" height="90px" width="100px"></a><a href="../references.html">References</a></li>
-    <li><a href="../feedback.html"><img src="../images/feedback.png" alt="Theory" height="90px" width="100px"></a><a href="../feedback.html">Feedback</a></li>
-	</ul>
-  		
-  	</div>
-  		
-  </div>
+<body>
+    <div class="container">
+        <nav id="nav-placeholder">
+            <ul>
+                <li><a href="../index.html"><img src="../images/aim.png" alt="Aim" /><span>Aim</span></a></li>
+                <li><a href="../theory_page/theory.html"><img src="../images/theory.png" alt="Theory" /><span>Theory</span></a></li>
+                <li><a href="../procedure/procedure.html"><img src="../images/Procedure.png" alt="Procedure" /><span>Procedure</span></a></li>
+                <li><a href="../quiz/index.html" class="active"><img src="../images/pre-test.png" alt="Pre-Test" /><span>Pre-Test</span></a></li>
+                <li><a href="#" onclick="alert('Complete Pre Test to perform Simulation')"><img src="../images/simulation.png" alt="Simulation" /><span>Simulation</span></a></li>
+                <li><a href="#" onclick="alert('Complete Simulation to access Post Test')"><img src="../images/post-test.png" alt="Post-Test" /><span>Post-Test</span></a></li>
+                <li><a href="../references.html"><img src="../images/references.png" alt="References" /><span>References</span></a></li>
+                <li><a href="../feedback.html"><img src="../images/feedback.png" alt="Feedback" /><span>Feedback</span></a></li>
+            </ul>
+        </nav>
+    </div>
+    
 	<div id="whole_body" style=" background-color:white;position:relative; margin-left:auto; margin-right:auto; margin-top:20px;height:100%; width:1160px;margin-bottom: 20px;padding-bottom:1.5rem;">
 		<div  style="font-size:30px; text-align:center;padding-top: 5px">
     		<b> Understanding Eye diagram </b>
@@ -129,6 +128,13 @@
             <a class="btn btn-success mt-1" id="simulateButton" href="../simulator/simulation.html" role="button" style="display: none; position: relative;">Perform Simulation</a>
 		</div>
 	</div>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© 2025 Eye Diagram Virtual Lab | Developed for Educational Purposes</p>
+			<p>Made with Love by <a href="https://in.linkedin.com/in/dhruv-bhagatkar-1b267995" target="_blank">Dhruv Bhagatkar</a> &lt;3</p>
+		</div>
+	</footer>
 
 	<script src="main.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
